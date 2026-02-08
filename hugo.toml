@@ -1,0 +1,18 @@
+baseURL = 'https://veskprogrammer.github.io/web-portfolio/'
+languageCode = 'ru-ru'
+title = 'Веб-портфолио | veskprogrammer'
+theme = 'PaperMod'
+copyright = '© veskprogrammer, 2026'
+
+[params]
+    defaultTheme = "auto"
+    showCodeCopyButtons = true
+
+[[menu.main]]
+    name = "Проекты"
+    url = "/posts/my-projects/"
+    weight = 10
+[[menu.main]]
+    name = "Обо мне"
+    url = "/posts/about/"
+    weight = 20
